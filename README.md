@@ -45,3 +45,10 @@
 <br />
   <br/>
 
+
+ <h2>Example 2 Custom Controller:</h2>
+<br/>
+<img src=  Example2CustomController.png/>
+<br />
+<br />
+  <br/>
