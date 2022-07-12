@@ -1,0 +1,22 @@
+<apex:page Controller="StandardCustomController" >
+      <apex:pageBlock >
+      <apex:pageBlockSection >
+      <apex:outputField value="{!Account.Name}"/>
+      <apex:outputField value="{!Account.Id}"/> 
+      </apex:pageBlockSection>
+   </apex:pageBlock>
+</apex:page>
+
+
+
+
+//Standard Custom Controller Apex Class 
+
+public class StandardCustomController {
+    public Account getAccount(){
+        Account acc = [SELECT Id, Name, Phone FROM Account WHERE Id =: ApexPages.currentPage().getParameters().get('Id')]; 
+        return acc;
+    }
+}
+
+
