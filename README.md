@@ -30,3 +30,10 @@
 <br />
 <br />
   <br/>
+
+<h2>Standard Custom Controllers:</h2>
+<br/>
+<img src=StandardCustomController.png/>
+<br />
+<br />
+  <br/>
