@@ -13,7 +13,7 @@
 </apex:page>
 
 
-//APEX Class
+//APEX Class Controller
 
 public class ListSetController {
     public List<Contact> getContacts(){
