@@ -4,13 +4,14 @@
         <apex:pageblockSection >
          First Name: <apex:inputText value="{!fname}"/>
          Last Name: <apex:inputText value="{!lname}"/>
-        
-        
-        </apex:pageblockSection>
+     
+        <apex:commandButton value="Merge" action="{!concat}"/><br></br>
+           </apex:pageblockSection>
+               Full Name: <apex:outputText value="{!fullname}"/ >    
+            
     </apex:pageblock>
     </apex:form>
 </apex:page>
-
 
 //Apex Class 
 
@@ -22,7 +23,11 @@ public class GetterSetterExample {
     public GetterSetterExample(){
         fname = 'Shule';
         lname = 'Demirci';
-        
-        
+          
     }
+    public PageReference concat(){
+        fullname = fname + ' ' +lname;
+        return null; 
+    }
+    
 }
