@@ -11,3 +11,13 @@
   
   </apex:pageBlock>
 </apex:page>
+
+
+//APEX Class
+
+public class ListSetController {
+    public List<Contact> getContacts(){
+        List<Contact> cons = [SELECT Id, lastName, Email, Phone FROM Contact];
+         return cons; 
+    }
+}
