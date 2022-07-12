@@ -1,0 +1,28 @@
+<apex:page controller="GetterSetterExample">
+<apex:form >
+    <apex:pageblock title="Getter Setter Example">
+        <apex:pageblockSection >
+         First Name: <apex:inputText value="{!fname}"/>
+         Last Name: <apex:inputText value="{!lname}"/>
+        
+        
+        </apex:pageblockSection>
+    </apex:pageblock>
+    </apex:form>
+</apex:page>
+
+
+//Apex Class 
+
+public class GetterSetterExample {
+	 public String fname {set; get;}
+    public String lname {set; get;}
+    public String fullname {set; get;}
+    
+    public GetterSetterExample(){
+        fname = 'Shule';
+        lname = 'Demirci';
+        
+        
+    }
+}
