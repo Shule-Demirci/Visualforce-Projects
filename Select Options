@@ -1,0 +1,38 @@
+<apex:page >
+    <apex:pageBlock title="SALESFORCE">
+        <apex:pageBlockSection title="SELECT TAGS">
+        <apex:form >
+        <h1>Select List</h1>
+          <br></br>
+            <br></br>
+        <apex:selectList size="1" >
+        <apex:selectOption itemLabel="red" itemvalue="Red"></apex:selectOption>
+        <apex:selectOption itemLabel="white" itemvalue="white"></apex:selectOption>
+        <apex:selectOption itemLabel="blue" itemvalue="blue"></apex:selectOption>
+        
+        </apex:selectList>
+        <br></br>
+          <br></br>
+        <h1>Select Radio</h1>
+        <apex:selectRadio >
+         <apex:selectOption itemLabel="red" itemvalue="Red"></apex:selectOption>
+        <apex:selectOption itemLabel="white" itemvalue="white"></apex:selectOption>
+        <apex:selectOption itemLabel="blue" itemvalue="blue"></apex:selectOption>
+        </apex:selectRadio>
+       
+         <h1>Select Check Box</h1>
+        <apex:selectCheckboxes >
+         <apex:selectOption itemLabel="red" itemvalue="Red"></apex:selectOption>
+        <apex:selectOption itemLabel="white" itemvalue="white"></apex:selectOption>
+        <apex:selectOption itemLabel="blue" itemvalue="blue"></apex:selectOption>
+        </apex:selectCheckboxes> 
+         </apex:form>
+        </apex:pageBlockSection>
+    
+    
+    </apex:pageBlock> 
+</apex:page>
+
+
+
+
