@@ -37,3 +37,11 @@
 <br />
 <br />
   <br/>
+  
+  <h2>GetterSetterExample:</h2>
+<br/>
+<img src=  GetterSetterExample.png/>
+<br />
+<br />
+  <br/>
+
