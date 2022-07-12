@@ -1,0 +1,13 @@
+<apex:page controller="ListSetController" >
+  <apex:pageBlock title="Custom Set List">
+  <apex:pageblockTable value="{!contacts}" var="c">
+      <apex:column value="{!c.Id}"/>
+         <apex:column value="{!c.LastName}"/>
+          <apex:column value="{!c.Email}" />
+              <apex:column value="{!c.Phone}" />
+  </apex:pageblockTable>
+ 
+  
+  
+  </apex:pageBlock>
+</apex:page>
