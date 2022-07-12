@@ -17,7 +17,7 @@
 <br />
 <br />
   <br/>
-<h2>Standard Controllers</h2>
+<h2>Standard Controllers:</h2>
 <br/>
 <img src=StandardController.png/>
 <br />
