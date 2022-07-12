@@ -19,7 +19,7 @@
   <br/>
 <h2>Standard Controllers</h2>
 <br/>
-<img src="StandardControllers.png"/>
+<img src=StandardController.png/>
 <br />
 <br />
   <br/>
