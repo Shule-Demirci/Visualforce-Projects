@@ -52,3 +52,12 @@
 <br />
 <br />
   <br/>
+  
+  StandardControllerwithExtension.png
+  
+  <h2>Standard Controller with Extension:</h2>
+<br/>
+<img src=  StandardControllerwithExtension.png/>
+<br />
+<br />
+  <br/>
