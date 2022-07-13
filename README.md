@@ -30,31 +30,24 @@
 <br />
 <br />
   <br/>
-
 <h2>Standard Custom Controllers:</h2>
 <br/>
 <img src=StandardCustomController.png/>
 <br />
 <br />
   <br/>
-  
   <h2>GetterSetterExample:</h2>
 <br/>
 <img src=  GetterSetterExample.png/>
 <br />
 <br />
   <br/>
-
-
  <h2>Example 2 Custom Controller:</h2>
 <br/>
 <img src=  Example2CustomController.png/>
 <br />
 <br />
   <br/>
-  
-  StandardControllerwithExtension.png
-  
   <h2>Standard Controller with Extension:</h2>
 <br/>
 <img src=  StandardControllerwithExtension.png/>
